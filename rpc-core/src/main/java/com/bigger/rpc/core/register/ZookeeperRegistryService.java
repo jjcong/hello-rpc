@@ -43,7 +43,7 @@ public class ZookeeperRegistryService implements RegistryService{
                     .build();
             this.serviceDiscovery.start();
         }catch (Exception e) {
-            log.error("serviceDiscovery start error :{}", e);
+            log.error("serviceDiscovery start error :{}", e.getLocalizedMessage(), e);
         }
     }
 
