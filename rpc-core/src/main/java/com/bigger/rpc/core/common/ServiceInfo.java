@@ -36,7 +36,7 @@ public class ServiceInfo implements Serializable {
     /**
      * 端口
      */
-    private String port;
+    private Integer port;
 
 
 }
